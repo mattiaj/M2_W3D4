@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin: 2% 0 3% 0;
+    font-size: 3em;
+}
+.phone-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 3% 0 3%;
+    flex-wrap: wrap;
+}
+.phone {
+    margin: 2% 2% 0 2%;
+    
+}
+.phone img {
+    height: 180px;
+}
+.comment {
+    margin-top: 5%;
+}
+.comment input {
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0 1% 0;
+}
+.comment button {
+    border-radius: 15px;
+    padding: 5px 8px 5px 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
